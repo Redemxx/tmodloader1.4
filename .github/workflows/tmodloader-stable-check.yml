@@ -1,7 +1,7 @@
 name: tModLoader Stable Version Auto-Updater
 on:
-  schedule:
-    - cron: '5 2 * * *'
+  workflow_dispatch:
+  
 jobs:
   update-tmodloader-version:
     runs-on: ubuntu-latest
